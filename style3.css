@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(71, 71, 71, 0.7),
+        rgba(0,0,0,0.7)),
+        url(Imagenes/bg3index.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.header-content {
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #F9FAFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #f5b899;
+}
+#menu{
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.Videos {
+    padding: 100px 0;
+    background-color: #f5c3f5;
+    position: relative;
+}
+
+.vid-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vid-1{
+    padding: 15px 55px;
+}
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.vid-1 h3{
+    font-size: 25px;
+    color: #323337;
+} 
+.Señas{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #c8f2f5;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color:#F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.footer {
+    padding: 100px  ;
+    background-color: #000000;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3{
+    font-size: 18px;
+    color: #F9FAFC ;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+.table {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5b899;
+    font-size: 18px;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden; 
+
+}
+
+.tablet, tr, td {
+    border: 1px solid #0a0a0a; /* Bordes con color gris */
+}
+
+tr,td {
+    padding: 15px;
+    text-align: center; /* Centrar contenido */
+    border-color: #0a0a0a;
+}
+
+th {
+    background-color: #8dc8f8; /* Color de fondo para las celdas de encabezado */
+    color: white;
+    border-color: #0a0a0a;
+}
+
+tr:nth-child(even) {
+    border-color: #0a0a0a;
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}

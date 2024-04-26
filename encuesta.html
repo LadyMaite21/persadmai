@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <link rel="stylesheet" href="styyle4.css">
+</head>
+<body>
+
+
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">LMatius</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="discapacidades.html">Discapacidades</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="encuesta.html">Encuesta</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+
+            <h1>¿ Preguntas ?</h1>
+            <p>Mediante un Formulario nos ayudaras a disipar todas tus dudas e incluso enviarnos algun comentario </p>
+        </div>
+    </header>
+
+    <section class="FFF">
+        <div class="contain">
+
+            <form  class="form"  id="formulario-contacto" action="https://formspree.io/f/mnqejgyq" method="POST">
+                <h3> Ven nosotros te ayudamos</h3>
+                <p>En este apartado nos vas a contar tu experiencia y sobre todo si te sentiste satisfecho con la infromacion que le
+                    brindamos el dia de hoy
+                </p> 
+
+                <h3>
+                <label for="name">Ingrese su nombre:</label><br>
+                <input type="text" id="name" name="name" required class="box"><br>
+                <label for="correo">Correo Electronico:</label><br>
+                <input type="email" id="email" name="email" required class="box"><br>
+                <label for="mensaje"> Le gusto la página web?</label><br>
+                <textarea class="box" id="message" name="message" required></textarea><br>
+
+                <label for="mensaje">Se siente totalmente satisfecho con la información
+                    obtenida en esta página web o necesita que le ayude en algo?</label><br>
+               <textarea class="box" id="message2" name="message" required></textarea><br>
+                <input type="submit" value="Enviar" class="submit">
+                </h3>
+            </form>
+    
+    
+            <div class="info">
+                <img class="img-1" src="Imagenes/infoo-1.svg" alt="">
+                <div class="location">
+                    <div class="icons">
+                        <img src="Imagenes/gps.svg" alt="">
+                        <p>Cayambe-Otón-El Mirador</p>
+                    </div>
+                    <div class="icons">
+                        <img src="Imagenes/number.svg" alt="">
+                        <p> 0992023791</p>
+                    </div>
+                    <div class="icons">
+                        <img src="Imagenes/email.svg" alt="">
+                        <p>maitecarrillo130@gmail.com</p>
+                    </div>
+                
+                </div>
+                <div class="social">
+                    <img src="Imagenes/fa.svg" alt="">
+                    <img src="Imagenes/tw.svg" alt="">
+                    <img src="Imagenes/ins.svg" alt="">
+                </div>
+    
+        </div>
+    
+    
+    </section>
+    <br>
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            
+            <div class="link">
+                <h3> Anexos </h3>
+                <ul>
+                    <li> <a href="https://drive.google.com/file/d/1cEGo0OMRHQSD_jmPsYVH-xnVJg3o7h24/view?usp=sharing" target="_blank"> Tipos de Discapacidad </a></li>
+                    <li> <a href="https://www.youtube.com/embed/4WQQRP2yAG8?si=_ahqjaAUf-lcgvQq" target="_blank" width="560" height="315">Video de como ayudar</a></li>
+                    <li> <a href="https://www.youtube.com/embed/dD5VHtTUmds?si=QDSS81TXIuMYJhGe" target="_blank" width="560" height="315">Video de la ayuda D.V</a></li>
+                    <li> <a href="https://www.youtube.com/embed/cYsixd_AYGc?si=LKirYVBGeO95PmkA?mute=1" target="_blank" width="560" height="315">Lenguaje de señas</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
